@@ -6,9 +6,7 @@ This repo contains the typescript code to demonstrate the swapping on Turbos Fin
 
 ```
     git clone https://github.com/jveer634/sui-turbos-swap-ts.git
-
     cp .env.example .env
-
 ```
 
 -   Paste your bs58 encoded private key starting with _suiprivkey_ in `.env` file
@@ -23,5 +21,4 @@ This repo contains the typescript code to demonstrate the swapping on Turbos Fin
 
 ```
     npm run swap
-
 ```
