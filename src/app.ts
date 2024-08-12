@@ -10,7 +10,6 @@ const main = async () => {
 	const receiver = signer.toSuiAddress();
 	const pools = await sdk.pool.getPools();
 
-    
 	const fee = getFeeType(Mode.Development, Fee["3000BPS"]);
 
 	const pool = pools.filter(
@@ -47,7 +46,7 @@ const main = async () => {
 		},
 	];
 
-	console.log(swapResult);
+	console.log("Calculated swap result is: ", swapResult);
 
 	const tx = await sdk.trade.swap({
 		routes,

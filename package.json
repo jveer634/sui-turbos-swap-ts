@@ -1,19 +1,19 @@
 {
-  "name": "turbosfinance",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@mysten/sui": "^1.5.0",
-    "turbos-clmm-sdk": "^3.1.0"
-  },
-  "devDependencies": {
-    "dotenv": "^16.4.5",
-    "ts-node": "^10.9.2"
-  }
+	"name": "turbosfinance",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"swap": "ts-node src/app.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@mysten/sui": "^1.5.0",
+		"turbos-clmm-sdk": "^3.1.0"
+	},
+	"devDependencies": {
+		"dotenv": "^16.4.5",
+		"ts-node": "^10.9.2"
+	}
 }
